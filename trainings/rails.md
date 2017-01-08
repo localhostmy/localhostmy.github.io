@@ -1,4 +1,4 @@
-# Ruby
+# Rails
 
 ## Apa itu Ruby ?
 
