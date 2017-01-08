@@ -11,9 +11,7 @@
   and productivity. It has an elegant syntax that is natural to read and easy to write. from http:// www.ruby lang.com
 
 ## Mari Mencuba Ruby Secara ‘Online’
-
-```Sila layari laman web http://tryruby.org untuk mencuba ruby secara ‘online’.
-```
+Sila layari laman web http://tryruby.org untuk mencuba ruby secara ‘online’.
 
 ## 'Syntax' Ruby
 - Memaparkan hello world di skrin :
