@@ -15,6 +15,7 @@ Sila layari laman web http://tryruby.org untuk mencuba ruby secara ‘online’.
 
 ## 'Syntax' Ruby
 - Memaparkan hello world di skrin :
+
   ```ruby 
   puts “hello world”
   ```
