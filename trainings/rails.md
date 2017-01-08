@@ -87,8 +87,8 @@ DevKit
 ## Bagaimana memastikan Rails telah sedia dipasang
 
 Untuk memastikan package ruby on rails telah benar benar dipasang, sila buka terminal / command prompt dan jalankan arahan berikut :- 
-``` rails -v 
-```
+
+rails -v  
 
 Sekiranya version rails terpapar contoh seperti di atas Rails 5.0.1 maka komputer anda telahpun tersedia dipasang dengan applikasi Ruby On Rails.
 
