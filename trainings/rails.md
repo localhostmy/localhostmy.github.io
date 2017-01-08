@@ -24,6 +24,82 @@ Sila layari laman web http://tryruby.org untuk mencuba ruby secara ‘online’.
   ```
 - Memaparkan string ‘nazrul hazhan nazlan’ supaya dipaparkan dengan huruf besar dan secara terbalik.
   ``` ruby
-  puts “nazrul hazhan”.upcase.reverse
+  puts "khairi".upcase.reverse
+  ```
+- Memaparkan 10 kali “hello world” di skrin 
+  ``` ruby
+  10.times do
+  print "hello world"
+  end
+  ```
+- conditions
+  ``` ruby
+  exit unless "khairi".include "ha"
+  ```
+sistem tidak akan ‘exit’ kerana terdapat huruf ha dalam string khairi
+
+## Apa itu Ruby on Rails ?
+
+- Rangka Kerja Web ( Framework )
+- Ditulis dalam bahasa pengaturcaraan Ruby
+- Dicipta oleh David Heinemeier Hansson pada tahun 2003
+- Berada di bawah Sumber Terbuka pada Julai 2004
+- Berkonsepkan kepada MVC ( Model, View, Controller )
+  Ruby on Rails is a full stack web framework optimized for programmer
+  happiness and sustainable productivity. It encourages beautiful code by
+  favoring convention over configuration http://www.rubyonrails.org
+
+## Sistem Operasi
+
+- Microsoft Windows Linux
+- Mac Os X BSD most flavors of Unix
+
+## Database
+
+- MySQL SQL Server
+- PostgreSQL
+- Oracle
+- SQLite
+- DB2
+- Informix
+- Firebird
+- SybaseASA
+- MongoDB Cassandra
+- dan lain-lain
+
+## Pemasangan Ruby On Rails di Windows
+
+Kaedah yang paling mudah untuk anda memasang applikasi Ruby on Rails adalah dengan menggunakan package railsinstaller. Package railsinstaller ini boleh dimuat turun di alamat berikut :
+
+http://railsinstaller.org/
+
+Selesai muat turun sila pasangkan package railsintaller di komputer anda. Railsinstaller akan memasang applikasi seperti berikut : 
+
+Ruby 2.2.6
+Rails 5.0
+Bundler
+Git
+Sqlite
+TinyTDS
+SQL Server Support
+DevKit
+
+## Bagaimana memastikan Rails telah sedia dipasang
+
+Untuk memastikan package ruby on rails telah benar benar dipasang, sila buka terminal / command prompt dan jalankan arahan berikut :- 
+``` rails -v 
+```
+
+Sekiranya version rails terpapar contoh seperti di atas Rails 5.0.1 maka komputer anda telahpun tersedia dipasang dengan applikasi Ruby On Rails.
+
+
+## Mari Membuat Applikasi PermohonanKursus
+
+### Langkah 1
+langkah berjaga jaga
+### Langkah 2
+langkah berjaga jaga
+
+
 
 
