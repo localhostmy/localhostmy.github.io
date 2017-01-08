@@ -20,20 +20,24 @@ Sila layari laman web http://tryruby.org untuk mencuba ruby secara ‘online’.
   puts “hello world”
   ```
 - Mengira 200+400 dan paparkan jumlah di skrin :
+
   ``` ruby
   puts 200+400
   ```
 - Memaparkan string ‘nazrul hazhan nazlan’ supaya dipaparkan dengan huruf besar dan secara terbalik.
+
   ``` ruby
   puts "khairi".upcase.reverse
   ```
-- Memaparkan 10 kali “hello world” di skrin 
+- Memaparkan 10 kali “hello world” di skrin
+
   ``` ruby
   10.times do
   print "hello world"
   end
   ```
 - conditions
+
   ``` ruby
   exit unless "khairi".include "ha"
   ```
