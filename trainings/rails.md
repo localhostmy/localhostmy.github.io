@@ -101,9 +101,48 @@ Sekiranya version rails terpapar contoh seperti di atas Rails 5.0.1 maka kompute
 ## Mari Membuat Applikasi PermohonanKursus
 
 ### Langkah 1
-langkah berjaga jaga
+
+Buka satu ‘Windows Terminal’ / Command Prompt dan jalankan arahan seperti di bawah :
+
+```
+C: presentation>rails new mylatihan skip bundle
+```
+
 ### Langkah 2
-langkah berjaga jaga
+
+Masuk ke dalam folder mylatihan yang dicipta oleh rails dan jalankan arahan berikut untuk mencipta pengkalan data mylatihan_development yang menggunakan sqlite 
+
+```
+C: presentation >cd mylatihan/
+
+C: presentation mylatihan>bundle exec rake db:create
+```
+
+### Langkah 3
+
+Jalankan arahan di bawah untuk memulakan ‘Web Server’ 
+
+```
+C: presentation mylatihan>rails server
+```
+
+### Langkah 4
+
+Buka satu lagi ‘Windows Terminal’ / Command Prompt dan jalankan arahan seperti di bawah :-
+
+```
+C: presentation mylatihan>rails generate scaffold Permohonan nama:string kad_pengenalan:string no_pekerja:string email:string telefon:string jabatan:string latihan_id:integer
+
+C: presentation mylatihan>bundle exec rake db:migrate
+
+```
+
+### Langkah 5
+
+Buka ‘Web Browser’ kesukaan anda dan pergi ke alamat http://localhost:3000/permohonans dan anda akan melihat paparan seperti di bawah :-
+
+
+
 
 
 
