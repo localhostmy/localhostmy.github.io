@@ -139,7 +139,68 @@ C: presentation mylatihan>bundle exec rake db:migrate
 
 ### Langkah 5
 
-Buka ‘Web Browser’ kesukaan anda dan pergi ke alamat http://localhost:3000/permohonans dan anda akan melihat paparan seperti di bawah :-
+Buka ‘Web Browser’ kesukaan anda dan pergi ke alamat http://localhost:3000/permohonans.
+
+Apabila anda klik pada link ‘New Permohonan’, paparan ‘form’ seperti di bawah
+
+### Langkah 6
+
+C: presentation mylatihan>rails generate scaffold Latihan tajuk:string maklumat:text kod:string tempat:string tarikh_mula:date tarikh_tamat:date tarikh_tutup:date
+
+C: presentation mylatihan>bundle exec rake db:migrate
+
+### Langkah 7
+
+Buka ‘Web Browser’ kesukaan anda dan pergi ke alamat http://localhost:3000/latihans
+
+Apabila anda klik pada link ‘New Latihan’, paparan ‘form’ seperti di bawah kelihatan dan anda boleh terus mengisi maklumat
+
+### Langkah 8
+
+Di dalam form permohonan latihan , untuk membolehkan pemohon memilih senarai latihan menggunakan ‘drop down menu’, sila ubah code seperti berikut 
+
+Sunting file C: presentation mylatihan app controllers permohonans_controller.rb menggunakan editor kesukaan anda. Tambahkan kod yang dihitamkan ke dalam kod asal seperti di bawah dan simpan file tersebut :
+
+``` ruby
+# GET /permohonans/new
+# GET /permohonans/new.json
+
+def new
+    @permohonan = Permohonan.new
+    @latihans = Latihan.all
+    respond_to do |format|
+        format.html # new.html.erb
+        format.json { render json: @permohonan }
+    end
+end
+```
+
+file : presentation mylatihan app controllers permohonans_controller.rb
+
+### Langkah 9
+
+Sunting file C: presentation mylatihan app views _form.html.erb menggunakan editor kesukaan anda. Tukarkan kod yang dihitamkan seperti di bawah 
+
+```
+tukar
+
+<div class="field">
+    <%= f.label :latihan_id %>
+    <%= f.number_field :latihan_id %>
+</div>
+
+kepada :-
+
+<div class="field">
+    <%= f.label :latihan_id %>
+    <%= collection_select :permohonan,:latihan_id, @latihans, :id, :tajuk %>
+</div>
+```
+
+### Langkah 10
+
+Buka ‘Web Browser’ kesukaan anda dan pergi ke alamat http://localhost:3000/permohonans/new dan anda akan melihat ‘drop down menu’ untuk pilihan latihan telah terpapar.
+
 
 
 
