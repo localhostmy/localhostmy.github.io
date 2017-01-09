@@ -67,6 +67,19 @@ Senarai berikut menunjukkan perkataan reserved dalam Ruby. Ini terpelihara kata-
 </tbody></table>
 
 ##Classes
+
+Penentuan Kelas di Ruby:
+Melaksanakan pengaturcaraan berorientasikan objek dengan menggunakan Ruby, anda perlu terlebih dahulu belajar bagaimana untuk mencipta objek dan kelas di Ruby.
+
+Satu kelas di Ruby selalu bermula dengan kelas kata kunci yang sejajar dengan nama kelas. Nama ini perlu sentiasa dalam huruf awal. Kelas Pelanggan boleh dipaparkan sebagai
+
+```
+class Customer
+end
+```
+
+
+
 ##Variables
 ##Operators
 ##Comments
