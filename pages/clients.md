@@ -98,15 +98,15 @@ order: 4
     <center class="card-title" style="font-size: 15px;"><a href="http://www.psmza.edu.my/" target="_blank">Politeknik Sultan Mizan Zainal Abidin</a></center>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/lufthansa.png" class="img-fluid w-75" alt="lufyhansa">
+    <img class="card-img-top" src="/assets/images/clients/lufthansa.png" class="img-fluid w-75" alt="lufthansa">
     <center class="card-title" style="font-size: 15px;"><a href="http://www.lufthansa.com/my/en/Homepage" target="_blank">Lufthansa Malaysia</a></center>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/pdrm.png" class="img-fluid w-75" alt="lufyhansa">
+    <img class="card-img-top" src="/assets/images/clients/pdrm.png" class="img-fluid w-75" alt="pdrm">
     <center class="card-title" style="font-size: 15px;"><a href="https://www.rmp.gov.my/" target="_blank">Polis Diraja Malaysia</a></center>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/rapidkl.png" class="img-fluid w-75" alt="lufyhansa">
+    <img class="card-img-top" src="/assets/images/clients/rapidkl.png" class="img-fluid w-75" alt="rapidkl">
     <center class="card-title" style="font-size 15px;"><a href="https://www.myrapid.com.my/" target="_blank">Rapid Kuala Lumpur</a></center>
   </div>
 </div>
@@ -136,13 +136,13 @@ order: 4
     <center class="card-title" style="font-size: 15px;"><a href="http://www.hkl.gov.my/index.php" target="_blank">Hospital Besar Kuala Lumpur</a></center>
   </div>
 </div>
-  <div class="card-deck" style="max-width: 23.5rem; mb-3">
+  <div class="card-deck mb-3" style="max-width: 23.5rem;">
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/pkf.png" class="img-fluid w-75" alt="kpm">
+    <img class="card-img-top" src="/assets/images/clients/pkf.png" class="img-fluid w-75" alt="pkf">
     <center class="card-title" style="font-size: 15px;"><a href="http://www.pkf.com/" target="_blank">PKF Avant Edge Sdn Bhd</a></center>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/halliburton.png" class="img-fluid w-75" alt="kpm">
+    <img class="card-img-top" src="/assets/images/clients/halliburton.png" class="img-fluid w-75" alt="halliburton">
     <center class="card-title" style="font-size: 15px;"><a href="http://www.halliburton.com/en-US/default.page" target="_blank">Halliburton Energy Services (M) Sdn Bhd</a></center>
   </div>
 </div>

@@ -63,7 +63,6 @@ order: 2
 
 <ul style="font-size: 20px">
   <li style="font-size: 40px">Reseller</li>
-  Vendor integration
 </ul>
 <div class="card-deck mb-3">
   <div class="card">
