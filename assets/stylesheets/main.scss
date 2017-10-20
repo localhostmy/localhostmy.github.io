@@ -1,0 +1,201 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@font-face {
+    font-family: 'square721_btroman';
+    src: url('/assets/fonts/sqr721n-webfont.eot');
+    src: url('/assets/fonts/sqr721n-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/sqr721n-webfont.woff') format('woff'),
+         url('/assets/fonts/sqr721n-webfont.ttf') format('truetype'),
+         url('/assets/fonts/sqr721n-webfont.svg#square721_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import "bootstrap";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 3.5rem;
+  /* Margin bottom by footer height */
+  margin-bottom: 11rem;
+  font-family: 'square721_btroman';
+  background-color: #FAFAFA;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  //font-weight: 700;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.navbar{
+  max-height: 3.5rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+header.post-header, header.page-header {
+    background: #fff;
+    height: 7rem;
+    padding: 35px 40px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 7px rgba(35, 35, 35, 0.12);
+}
+
+.footer {
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 10rem;
+  background-color: #f5f5f5;
+}
+.album {
+    min-height: 50rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.list-group-item
+{
+  font-size: 13px;
+}
+
+/* flip image in about
+----------------------------*/
+.pic-container{
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+
+.pic-container.pic-xs{
+  width: 50px;
+  height: 50px;
+}
+
+.pic-container.pic-small{
+  width: 70px;
+  height: 70px;
+}
+
+.pic-container.pic-medium{
+  width: 150px;
+  height: 150px;
+}
+
+.pic-container.pic-large{
+  width: 250px;
+  height: 250px;
+}
+
+
+.pic-container.pic-xl{
+  width: 350px;
+  height: 350px;
+}
+
+.pic-container.pic-circle{
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.pic-overlay{
+  background-color: #ccc;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pic-container:hover .pic-overlay{
+  top: -100%;
+}
+
+.pic-overlay a{
+  display: block;
+  padding: 10px;
+}
+
+.pic-xs .pic-overlay a{
+  padding: 5px;
+}
+
+.pic-overlay .fa-window-close-o{
+  color: red;
+}
+
+.pic-medium .pic-overlay a i{
+  font-size: 20px;
+}
+
+.pic-large .pic-overlay a i{
+  font-size: 35px;
+}
+
+.pic-xl .pic-overlay a i{
+  font-size: 45px;
+}
+
+.img-circle {
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+}
+
+.card {
+    box-shadow: rgba(35, 35, 35, 0.1) 0px 1px 2px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 2px;
+    margin: 0px 0px 30px;
+    transition: all 0.4s ease;
+
+}
