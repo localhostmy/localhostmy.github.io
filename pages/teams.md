@@ -1,9 +1,9 @@
 ---
-title: Developers
+title: Teams
 layout: page
 permalink: "/teams/"
 published: true
-order: 5
+order: 6
 ---
 
 <div class="card-deck mb-3">
@@ -54,7 +54,7 @@ order: 5
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle">
-      <img class="pic" src="/assets/images/developers/ghost.png" alt="">
+      <img class="pic" src="/assets/images/developers/azman.png" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>

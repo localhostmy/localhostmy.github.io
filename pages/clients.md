@@ -24,7 +24,7 @@ order: 4
     <center class="card-title" style="font-size: 15px;"><a href="https://www.utp.edu.my/SitePages/Home.aspx" target="_blank">Universiti Teknologi Petronas</a></center>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/clients/mufg.png" class="img-fluid w-75" alt="mufg">
+    <img class="card-img-top" src="/assets/images/clients/mufg.jpg" class="img-fluid w-75" alt="mufg">
     <center class="card-title" style="font-size: 15px;"><a href="http://www.bk.mufg.jp/global/" target="_blank">Bank of Tokyo-Mitsubishi UFJ</a></center>
   </div>
   <div class="card">

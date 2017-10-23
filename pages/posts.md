@@ -3,6 +3,6 @@ title: Blogs
 layout: blog
 permalink: /blogs/
 published: true
-order: 6
+order: 5
 ---
 

@@ -3,7 +3,7 @@ title: Contact Us
 layout: page
 permalink: /contacts/
 published: true
-order: 7
+order: 8
 ---
 
 <center><iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1122379979593!2d101.52209721429934!3d3.0646568977682502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc529d53b27b21%3A0xfc01735c6cc2bf89!2sLocalhost+Sdn.+Bhd.!5e0!3m2!1sen!2smy!4v1508388710408" width="100%" height="450"  style="border:10" allowfullscreen></iframe></center>
@@ -36,19 +36,11 @@ order: 7
     </div>
   </div>
   <div class="card mb-3" >
-    <center class="card-header">VACANCIES / INTERNSHIP </center>
+    <center class="card-header">Coming Soon</center>
     <div class="card-body" style="font-size: 12px">
-      <center class="card-title"><h4>Come and be a part of Localhost!</h4></center>
-      <p class="card-text">If you are mathematically gifted, love to solve real world probelms with your brains and luck.
-      We have abundance of oppurtinities to make sure you'll never run dry.</p>
-      <center style="font-size: 13px"><i class="fa fa-envelope"></i> hello@localhost.my</center>
+      <center class="card-title"><h4>Many to come</h4>
+      <p class="card-text">Developer brainstorming alert</p></center>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
-        <center class="card-title"><h4>INTERNSHIP</h4></center>
-        <center><a href="/assets/docs/intern.pdf" target="_blank" class="btn btn-primary btn-sm">Requirement</a></center>
-      </li>
-    </ul>
   </div>
 </div>
 
