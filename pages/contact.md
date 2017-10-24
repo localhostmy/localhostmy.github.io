@@ -1,16 +1,15 @@
 ---
 title: Contact Us
-layout: page
+layout: map
 permalink: /contacts/
 published: true
 order: 8
 ---
 
-<center><iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1122379979593!2d101.52209721429934!3d3.0646568977682502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc529d53b27b21%3A0xfc01735c6cc2bf89!2sLocalhost+Sdn.+Bhd.!5e0!3m2!1sen!2smy!4v1508388710408" width="100%" height="450"  style="border:10" allowfullscreen></iframe></center>
 <div class ="card-deck mb-3">
   <div class="card mb-3" >
     <center class="card-header">KLANG VALLEY</center>
-    <div class="card-body" style="font-size: 12px;">
+    <div class="card-body">
       <center class="card-title"><h4>LOCALHOST SDN BHD</h4></center>
       <p class="card-text">
       NO 29-2, TINGKAT 2, JALAN TUKUL N15/N,
@@ -26,7 +25,7 @@ order: 8
   </div>
   <div class="card mb-3" >
     <center class="card-header">KELANTAN</center>
-    <div class="card-body" style="font-size: 12px">
+    <div class="card-body">
       <center class="card-title"><h4>LOCALHOST SDN BHD</h4></center>
       <p class="card-text">
       2215-B JALAN LONG YUNUS,
@@ -36,10 +35,13 @@ order: 8
     </div>
   </div>
   <div class="card mb-3" >
-    <center class="card-header">Coming Soon</center>
-    <div class="card-body" style="font-size: 12px">
-      <center class="card-title"><h4>Many to come</h4>
-      <p class="card-text">Developer brainstorming alert</p></center>
+    <center class="card-header">HOSTFILE</center>
+    <div class="card-body">
+      <center class="card-title"><h4>Windows</h4>
+      <p class="card-text">Windows/System32/drivers/etc/hosts</p></center>
+
+     <center class="card-title"><h4>Unix/Linux</h4>
+      <p class="card-text">/etc/hosts</p></center>
     </div>
   </div>
 </div>
