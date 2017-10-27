@@ -1,5 +1,7 @@
 ---
 title: Teams
+subtitle: Teams
+lead: Meet Localhost Team Members
 layout: page
 permalink: "/teams/"
 published: true

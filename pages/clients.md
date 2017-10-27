@@ -1,5 +1,7 @@
 ---
 title: Clients
+subtitle: Clients
+lead: Meet Our Clients
 layout: page
 permalink: "/clients/"
 published: true

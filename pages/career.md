@@ -1,17 +1,14 @@
 ---
 title: Career
+subtitle: Career
+lead: Come and be a part of Localhost!
 layout: page
 permalink: /careers/
 published: true
 order: 7
 ---
 
-<div class="row featurette">
-  <div class="card-body">
-    <center class="card-title"><h4>Come and be a part of Localhost!</h4></center>
-    <hr class="featurette-divider">
-  </div>
-</div>
+
 <div class="row featurette">
   <div class="col-md-12">
     <h2 class="featurette-heading">Vacancies</h2>

@@ -1,5 +1,7 @@
 ---
 title: Services
+subtitle: Services
+lead: Our Families of Services
 layout: page
 permalink: "/services/"
 published: true

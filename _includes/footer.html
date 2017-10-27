@@ -1,14 +1,12 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-2">
+      <div class="col-3">
         <ul class="contact-list list-unstyled">
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
+            <a class="navbar-brand" href="{{ "/" | relative_url }}">
+              <img src="/assets/images/logo.png" class="logo"  style="width: 200px;" />
+            </a>
             </li>
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -24,7 +22,7 @@
           {% endif %}
         </ul>
       </div>
-      <div class="col-4">
+      <div class="col-3">
         {% for path in page_paths %}
           {% assign my_page = site.pages | where: "path", path | first %}
           {% if my_page.title %}

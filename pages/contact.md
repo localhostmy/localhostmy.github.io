@@ -1,5 +1,7 @@
 ---
 title: Contact Us
+subtitle: Contact Us
+lead: Feel Free to Contact Us
 layout: map
 permalink: /contacts/
 published: true
