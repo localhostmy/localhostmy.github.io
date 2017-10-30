@@ -8,10 +8,9 @@ published: true
 order: 2
 ---
 
-<ul style="font-size: 20px">
-  <li style="font-size: 40px">Application Development</li>
-  Custom apps development (web based)
-</ul>
+
+<h4>Application Development</h4>
+<h5>Custom apps development (web based)</h5>
 <div class="card-deck w-50 mb-3">
   <div class="card" style="border-color: 1px solid red;">
     <br>
@@ -26,14 +25,12 @@ order: 2
     <center class="card-title" style="font-size: 15px;">JQuery Training</center>
   </div>
 </div>
-
-<ul>
-  <li style="font-size: 40px">Network and Security</li>
-</ul>
+<br>
+<h4>Network and Security</h4>
 <div class="card-deck mb-3">
   <div class="card">
     <br>
-    <img class="card-img-top" src="/assets/images/services/spa.svg" class="img-fluid w-75" alt="Security Posture Assessment/Penetration Testing/Server Hardening">
+    <img class="card-img-top" src="/assets/images/services/spa.png" class="img-fluid w-75" alt="Security Posture Assessment/Penetration Testing/Server Hardening">
     <br>
     <center class="card-title" style="font-size: 15px;">Security Posture Assessment / Penetration Testing / Server Hardening</center>
   </div>
@@ -51,7 +48,7 @@ order: 2
   </div>
   <div class="card">
     <br>
-    <img class="card-img-top" src="/assets/images/services/integration.jpg" class="img-fluid w-75" alt="System Integrator">
+    <img class="card-img-top" src="/assets/images/services/integration.png" class="img-fluid w-75" alt="System Integrator">
     <br>
     <center class="card-title" style="font-size: 15px;">System Integrator</center>
   </div>
@@ -62,10 +59,8 @@ order: 2
     <center class="card-title" style="font-size: 15px;">Cloud Computing</center>
   </div>
 </div>
-
-<ul style="font-size: 20px">
-  <li style="font-size: 40px">Reseller</li>
-</ul>
+<br>
+<h4>Reseller</h4>
 <div class="card-deck mb-3">
   <div class="card">
     <br>

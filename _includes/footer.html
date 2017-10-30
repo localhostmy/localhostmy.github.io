@@ -1,42 +1,38 @@
-<footer class="footer">
+<footer class=" footer fdb-block footer-large bg-dark">
   <div class="container">
-    <div class="row">
-      <div class="col-3">
-        <ul class="contact-list list-unstyled">
-          <li>
-            <a class="navbar-brand" href="{{ "/" | relative_url }}">
-              <img src="/assets/images/logo.png" class="logo"  style="width: 200px;" />
-            </a>
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+    <div class="row align-items-top text-center text-md-left">
+      <div class="col-12 col-sm-6 col-md-4">
+        <h3><strong>Klang Valley</strong></h3>
+        <p class="text-justify">No 29-2, Tingkat 2, Jalan Tukul N15/N, Seksyen 15, 40200 Shah Alam, Selangor, Malaysia.</p>
+        <p>+603 5523 4445</p>
+        <p>{% if site.email %}
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {% endif %}</p>
       </div>
-      <div class="col-2">
-        <ul class="list list-unstyled">
-          {% if site.facebook_username %}
-          <li>
-            {% include icon-facebook.html username=site.facebook_username %}
-          </li>
-          {% endif %}
-        </ul>
+
+      <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
+        <h3><strong>Kelantan</strong></h3>
+        <p class="text-justify">2215-B Jalan Long Yunus, Off Taman Maju, 15150 Kota Bharu, Kelantan, Malaysia</p>
       </div>
-      <div class="col-3">
-        {% for path in page_paths %}
-          {% assign my_page = site.pages | where: "path", path | first %}
-          {% if my_page.title %}
-            <ul style="margin-top: -22px;">
-              <li style="list-style:none;">
-                <a style="" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              </li>
-            </ul>
-          {% endif %}
-        {% endfor %}
+
+      <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
+        <h3><strong>About Us</strong></h3>
+        <p class="text-justify">Localhost is an nterprise business solutions provider with a passion to deliver first class enterprise business solutions to a broad
+        cross section of companies across multiple industries, even though it targets mainly the large established multi-national conglomerates
+        as its key market. </p>
+        {% if site.facebook_username %}
+          <p> {% include icon-facebook.html username=site.facebook_username %}</p>
+        {% endif %}
       </div>
-      <div class="col-4">
-       {{ site.description | escape }}
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col text-center">
+        {{ site.description | escape }}
       </div>
     </div>
   </div>
-</footer>
+  </footer>
+
+

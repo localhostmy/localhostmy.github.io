@@ -16,6 +16,7 @@
 
 @import "bootstrap";
 
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -26,7 +27,7 @@ html {
 body {
   padding-top: 3.5rem;
   /* Margin bottom by footer height */
-  margin-bottom: 11rem;
+  margin-bottom: 26.25rem;
   font-family: 'square721_btroman';
   background-color: #FAFAFA;
 }
@@ -78,7 +79,6 @@ header.post-header, header.page-header {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 10rem;
   background-color: #f5f5f5;
 }
 .album {
@@ -289,3 +289,5 @@ circle {
   50% { fill: hsla(209, 20%, 49%, 1); }
   100% { fill: hsla(360, 100%, 100%, 1); }
 }
+
+@import "froala";

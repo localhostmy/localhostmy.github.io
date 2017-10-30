@@ -12,11 +12,11 @@ order: 8
   <div class="card mb-3" >
     <center class="card-header">KLANG VALLEY</center>
     <div class="card-body">
-      <center class="card-title"><h4>LOCALHOST SDN BHD</h4></center>
+      <center class="card-title"><h4>Localhost Sdn Bhd</h4></center>
       <p class="card-text">
-      NO 29-2, TINGKAT 2, JALAN TUKUL N15/N,
-      SEKSYEN 15, 40200 SHAH ALAM,
-      SELANGOR, MALAYSIA.</p>
+      No 29-2, Tingkat 2, Jalan Tukul N15/N,
+      Seksyen 15, 40200 Shah Alam,
+      Selangor, Malaysia.</p>
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
@@ -28,12 +28,12 @@ order: 8
   <div class="card mb-3" >
     <center class="card-header">KELANTAN</center>
     <div class="card-body">
-      <center class="card-title"><h4>LOCALHOST SDN BHD</h4></center>
+      <center class="card-title"><h4>Localhost Sdn Bhd</h4></center>
       <p class="card-text">
-      2215-B JALAN LONG YUNUS,
-      OFF TAMAN MAJU,
-      15150 KOTA BHARU,
-      KELANTAN, MALAYSIA</p>
+      2215-B Jalan Long Yunus,
+      Off Taman Maju,
+      15150 Kota Bharu,
+      Kelantan, Malaysia.</p>
     </div>
   </div>
   <div class="card mb-3" >
