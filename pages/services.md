@@ -9,9 +9,9 @@ order: 2
 ---
 
 
-<h4>Application Development</h4>
-<h5>Custom apps development (web based)</h5>
-<div class="card-deck w-50 mb-3">
+<h3>Application Development</h3>
+<h5 class="text-muted">Design web application according to user´s requirements and provide training to sharpen your company's knwowledge.</h5>
+<div class="card-deck w-75 mb-4">
   <div class="card" style="border-color: 1px solid red;">
     <br>
     <img class="card-img-top" src="/assets/images/services/rails.png" class="img-fluid w-50" alt="Rails3 Consultation & Training">
@@ -24,10 +24,16 @@ order: 2
     <br>
     <center class="card-title" style="font-size: 15px;">JQuery Training</center>
   </div>
+  <div class="card">
+    <br>
+    <img class="card-img-top" src="/assets/images/services/custom.png" class="img-fluid w-50" alt="Custom">
+    <br>
+    <center class="card-title" style="font-size: 15px;">Custom apps development (web based)</center>
+  </div>
 </div>
-<br>
-<h4>Network and Security</h4>
-<div class="card-deck mb-3">
+<h3>Network and Security</h3>
+<h5 class="text-muted">Provide installation, training and consultation which allow company's to understand and maximize knowledge about network and security.</h5>
+<div class="card-deck mb-4">
   <div class="card">
     <br>
     <img class="card-img-top" src="/assets/images/services/spa.png" class="img-fluid w-75" alt="Security Posture Assessment/Penetration Testing/Server Hardening">
@@ -59,9 +65,9 @@ order: 2
     <center class="card-title" style="font-size: 15px;">Cloud Computing</center>
   </div>
 </div>
-<br>
-<h4>Reseller</h4>
-<div class="card-deck mb-3">
+<h3>Reseller</h3>
+<h5 class="text-muted">Authorised Reseller and provide web services to serve the end customer.</h5>
+<div class="card-deck mb-4">
   <div class="card">
     <br>
     <img class="card-img-top" src="/assets/images/services/google.jpg" class="img-fluid w-50" alt="Rails3 Consultation & Training">

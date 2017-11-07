@@ -2,7 +2,7 @@
 title: 'Invitation For Industry Talk On "Securing The Network 2011 Series #1"'
 layout: content
 date: '2011-02-24 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 Dear Tan Sri/Datuk/Dato/Professors/Sir/Madam,

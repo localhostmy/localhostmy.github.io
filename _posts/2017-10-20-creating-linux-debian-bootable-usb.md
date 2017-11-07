@@ -2,7 +2,7 @@
 title: Creating Linux Debian bootable USB
 layout: content
 date: '2011-04-13 00:00:00'
-categories: blogs
+categories: BLOG
 ---
 
 #apt-get install mtools

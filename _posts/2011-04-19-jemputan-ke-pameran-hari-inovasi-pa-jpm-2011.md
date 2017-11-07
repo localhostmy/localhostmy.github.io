@@ -2,7 +2,7 @@
 title: Jemputan ke Pameran Hari Inovasi PA JPM 2011
 layout: content
 date: '2011-04-19 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 Assalamualaikum dan Salam Sejahtera

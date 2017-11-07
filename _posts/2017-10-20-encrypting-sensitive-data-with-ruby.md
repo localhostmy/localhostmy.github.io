@@ -2,7 +2,7 @@
 title: Encrypting Sensitive Data With Ruby
 layout: content
 date: '2011-02-26 00:00:00'
-categories: blogs
+categories: BLOG
 ---
 
 In Encrypting Sensitive Data with Perl I wrote about how to use public key encryption to automatically and securely encrypt information with Perl. This allows you encryption things like credit card numbers, bank routing information, or that winning PowerBall number in a unattended fashion. Typically, you would use this in a situation where a user needs to enter sensitive information into a form which need to be stored in a secure manner. We can do this with Ruby (on Rails) as well, and it’s even easier.

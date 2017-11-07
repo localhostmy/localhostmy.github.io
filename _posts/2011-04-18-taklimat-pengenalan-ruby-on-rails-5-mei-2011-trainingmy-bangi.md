@@ -2,7 +2,7 @@
 title: Taklimat Pengenalan Ruby on Rails - 5 Mei 2011 - Training.My Bangi
 layout: content
 date: '2011-04-19 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 Assalamualaikum wbt / Salam Sejahtera,

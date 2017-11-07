@@ -2,7 +2,7 @@
 title: ".my DOMAIN REGISTRY .myTraining"
 layout: content
 date: '2011-06-14 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 .my DOMAIN REGISTRY .myTraining - "ADOPTION OF IPv6 AND DNSSEC IN DOMAIN NAME SYSTEM (DNS)"  

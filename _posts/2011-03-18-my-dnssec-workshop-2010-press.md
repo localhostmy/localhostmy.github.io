@@ -2,7 +2,7 @@
 title: ".my DNSSEC Workshop 2010 (Press)"
 layout: content
 date: '2011-03-18 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 Kuala Lumpur, 17 December 2010 - In conjunction with the launch of .myDNSSEC on the 16th December 2010, a 1.5 day .my DNSSEC Workshop 2010 was held at The Royale Chulan between 15th December through 16th December to share techniques and experiences by .my DOMAIN REGISTRY as well as to provide hand-on exercises for participants on how to deploy DNSSEC on their own DNS servers.   

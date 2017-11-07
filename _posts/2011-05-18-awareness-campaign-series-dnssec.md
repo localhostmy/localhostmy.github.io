@@ -2,7 +2,7 @@
 title: Awareness Campaign Series – DNSSEC
 layout: content
 date: '2011-05-18 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 Time: May 12, 2011 from 2pm to 5pm

@@ -1,7 +1,7 @@
 ---
 title: Blogs
 subtitle: Blogs
-lead: Families' Announcement
+lead: News, blogs and announcements
 layout: blog
 permalink: /blogs/
 published: true

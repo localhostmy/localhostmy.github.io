@@ -2,7 +2,7 @@
 title: MNCC DNSSEC Training
 layout: content
 date: '2011-04-19 00:00:00'
-categories: news
+categories: NEWS
 ---
 
 <div class="row">

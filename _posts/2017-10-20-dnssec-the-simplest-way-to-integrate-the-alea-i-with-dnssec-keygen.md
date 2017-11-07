@@ -2,7 +2,7 @@
 title: "[DNSSEC] The simplest way to integrate the Alea I with dnssec-keygen"
 layout: content
 date: '2011-02-08 00:00:00'
-categories: blogs
+categories: BLOG
 ---
 
 <img classs="img-fluid center" src="/assets/images/post/dnssec-keygen.jpg"/>

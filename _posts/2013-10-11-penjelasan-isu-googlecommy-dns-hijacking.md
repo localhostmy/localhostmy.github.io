@@ -2,7 +2,7 @@
 title: Penjelasan isu google.com.my DNS hijacking.
 layout: content
 date: '2013-10-11 00:00:00'
-categories: blogs
+categories: BLOG
 ---
 
 Salam,
