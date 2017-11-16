@@ -27,9 +27,12 @@ facebook_username: localspace
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - bootstrap
+  - autoprefixer-rails
+  - jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock

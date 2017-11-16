@@ -2,19 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@font-face {
-    font-family: 'square721_btroman';
-    src: url('/assets/fonts/sqr721n-webfont.eot');
-    src: url('/assets/fonts/sqr721n-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/sqr721n-webfont.woff') format('woff'),
-         url('/assets/fonts/sqr721n-webfont.ttf') format('truetype'),
-         url('/assets/fonts/sqr721n-webfont.svg#square721_btroman') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
+// example override bootswatch variables
+$primary:       #6ACA4D;
+//$secondary:     #37474f;
+//$success:       #28b62c;
+//$info:          #03a9f4;
+//$warning:       #fbe42c;
+//$danger:        #ff4136;
+//$light:         #eeeeee;
+$dark:          #2A3138;
+// end example override
 
+@import "bootswatch/sandstone/variables";
 @import "bootstrap";
+@import "bootswatch/sandstone/bootswatch";
+@import "froala";
 
 
 /* Sticky footer styles
@@ -28,7 +31,6 @@ body {
   padding-top: 3.5rem;
   /* Margin bottom by footer height */
   margin-bottom: 26.25rem;
-  font-family: 'square721_btroman';
   background-color: #FAFAFA;
 }
 
@@ -79,8 +81,9 @@ header.post-header, header.page-header {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  background-color: #f5f5f5;
+  background: $dark !important;
 }
+
 .album {
     min-height: 50rem;
     padding-top: 3rem;
@@ -289,8 +292,6 @@ circle {
   50% { fill: hsla(209, 20%, 49%, 1); }
   100% { fill: hsla(360, 100%, 100%, 1); }
 }
-
-@import "froala";
 
 .navbar a, .footer, .page-header, .post-header {
   color: #B3B9C0 !important; 
