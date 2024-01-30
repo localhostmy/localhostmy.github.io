@@ -17,7 +17,7 @@
 title: LOCALHOST
 email: hello@localhost.my
 description: > # this means to ignore newlines until "baseurl:"
-  Copyright © Localhost 2013-2017
+  Copyright © Localhost 2010-2024
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "localhost.my" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -26,14 +26,16 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+   gem 'jekyll', '~> 3.6', '< 3.7'
    gem "jekyll-feed", "~> 0.6"
-   gem 'bootstrap'
-   gem 'bootswatch', github: 'mkhairi/bootswatch-sass'
+   gem 'jekyll-assets', '~> 2.4', '< 3'
+   gem 'jekyll-admin'
+   gem 'bootstrap', '4.0.0.beta3'
+   gem 'bootswatch', '4.0.0.beta3'
    gem 'autoprefixer-rails'
-   gem 'jekyll-assets'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'jekyll-admin', group: :jekyll_plugins
+gem "faraday-retry", "~> 2.2"
